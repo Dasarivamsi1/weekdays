@@ -3,8 +3,9 @@ pipeline{
     stages{
         stage("hello world"){
             steps{
-                bat "hello world"
+                echo "hello world"
             }
         }
     }
+
 }
